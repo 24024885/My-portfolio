@@ -1,215 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Liberance Segodi - Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liberance Segodi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <header>
-    <nav class="container">
-      <div class="logo">Liberance Sekgodi</div>
-      <button class="hamburger">
-        <i class="fas fa-bars"></i>
-      </button>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home" class="intro">
-    <div class="container intro-content">
-      <div class="intro-text">
-        <h1 class="animate-slide-left">Hi, I'm Liberance Sekgodi</h1>
-        <p class="lead animate-slide-left" style="animation-delay: 0.2s;">
-          Aspiring <span style="color: #29c56d;"><strong>Software Developer</strong></span> | CS&M Student at University of Venda<br><br>
-          A committed and progressive Computer Science and Mathematics student passionate about leveraging technology to solve real-world problems. My studies have equipped me with a strong foundation in programming, data structures, algorithms, and software development principles.
-        </p>
-        <a href="#projects" class="button animate-slide-left" style="animation-delay: 0.4s;">View My Projects</a>
-      </div>
-      <img src="/image/liber.jpg" alt="Liberance Segodi" class="profile-image animate-slide-right">
-    </div>
-  </section>
-
-  <main>
-    <section id="about" class="about">
-      <div class="container">
-        <h2 class="animate-fade-in">About Me</h2>
-        <p class="about-info animate-slide-up"><strong>Academic Background:</strong> BSc in Computer Science and Mathematics, University of Venda</p>
-       <p>My studies have provided me with a strong foundation in core areas such as programming, data structures, algorithms, database systems, computer networks, software engineering, and emerging technologies like artificial intelligence and cloud computing.I have developed problem-solving abilities, programming skills, and a forward-looking approach to emerging technology trends. I am passionate about leveraging my knowledge to innovate, create sustainable solutions, and drive digital transformation across industries.As I continue my studies, I am committed to expanding my technical expertise and leadership skills, preparing to contribute meaningfully to the future of tech-driven industries and global digital ecosystems.</p>         
-        <p class="animate-slide-up" style="animation-delay: 0.2s;">Driven by a curiosity for technology and a desire to create impactful solutions, I am eager to apply my academic knowledge and continuously expand my skillset in the field of software development.</p>
-
-        <h2 class="animate-fade-in" style="margin-top: 3rem;">Skills & Tools:</h2>
-        <div class="skills-list">
-          <div class="skill animate-grow">
-            <i class="fab fa-python" style="color:#3776AB;"></i>
-            <span>Python</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.1s;">
-            <i class="fab fa-java" style="color:#f89820;"></i>
-            <span>Java</span>
-          </div>
-            <div class="skill animate-grow" style="animation-delay: 0.2s;">
-            <img src="https://cdn.simpleicons.org/cplusplus/00599C" alt="C++ Logo" width="30" height="30">
-            <span>C++</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.2s;">
-            <i class="fab fa-js-square" style="color:#f7df1e;"></i>
-            <span>JavaScript</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.3s;">
-            <i class="fab fa-html5" style="color:#e34c26;"></i>
-            <span>HTML</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.4s;">
-            <i class="fab fa-css3-alt" style="color:#264de4;"></i>
-            <span>CSS</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.5s;">
-            <i class="fab fa-react" style="color:#61DBFB;"></i>
-            <span>React.js</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.6s;">
-            <i class="fab fa-node-js" style="color:#68A063;"></i>
-            <span>Node.js</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.7s;">
-            <i class="fas fa-database" style="color:#00618A;"></i>
-            <span>MySQL</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.8s;">
-            <i class="fab fa-git-alt" style="color:#f1502f;"></i>
-            <span>Git</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 0.9s;">
-            <i class="fab fa-github" style="color:#333;"></i>
-            <span>GitHub</span>
-          </div>
-          <div class="skill animate-grow" style="animation-delay: 1s;">
-            <i class="fab fa-linux" style="color:#000;"></i>
-            <span>Linux</span>
-          </div>
-        </div>
-
-        <p class="animate-slide-up" style="animation-delay: 0.4s;"><strong>Career Goals:</strong> Aspiring to become a proficient full-stack developer, contributing to open-source projects, and building innovative tech solutions that address real-world challenges.</p>
-      </div>
-    </section>
-
-    <section id="projects" class="projects">
-      <div class="container">
-        <h2 class="animate-fade-in">Projects</h2>
-        <div class="row">
-          <div class="column animate-slide-up">
-            <div class="card">
-              
-              <h3><span style="color: #1d68e0;"><strong>Budget Planner</strong></span></h3>
-              <p>Budget Planner is an intuitive and powerful web application designed to help individuals and businesses efficiently plan, track, and manage their finances. It offers users a clear visual overview of their income, expenses, savings, and financial goals, promoting smarter money management habits</p>
-              <p><strong>Tools:</strong></p>
-                <div class="skill animate-grow" style="animation-delay: 0.1s;">
-                <i class="fab fa-java" style="color:#f89820;"></i>
-                <span>Java</span>
-              </div>
-            
-              <a href="https://github.com/24024885/Expense" target="_blank">View Project</a>
-            </div>
-          </div>
-
-          <div class="column animate-slide-up" style="animation-delay: 0.2s;">
-            <div class="card">
-              
-              <h3><span style="color: #1d68e0;"><strong>Personal Website</strong></span></h3>
-              <p>A website to showcase my academic background, skills, and projects. Building this website helped me strengthen my skills in web development technologies like HTML, CSS, and responsive design.</p>
-              
-              <p><strong>Tools:</strong> </p>
-             
-              <div class="skill animate-grow" style="animation-delay: 0.3s;">
-                <i class="fab fa-html5" style="color:#e34c26;"></i>
-                <span>HTML</span></div>
-           <div class="skill animate-grow" style="animation-delay: 0.4s;">
-            <i class="fab fa-css3-alt" style="color:#264de4;"></i>
-            <span>CSS</span></div>
-          
-           <div class="skill animate-grow" style="animation-delay: 0.2s;">
-            <i class="fab fa-js-square" style="color:#f7df1e;"></i>
-            <span>JavaScript</span>
-          </div>
-             
-              <a href="#" class="project-link" target="_blank">View project</a>
-            </div>
-          </div>
-
-          <div class="column animate-slide-up" style="animation-delay: 0.4s;">
-            <div class="card coming-soon">
-              <h3>Coming Soon</h3>
-              <p>Exciting new projects are currently under development. Stay tuned!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="animate-fade-in">Contact Me</h2>
-        <p class="animate-slide-up">Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
-        <ul class="contact-list animate-slide-up" style="animation-delay: 0.2s;">
-          <li><i class="fas fa-envelope"></i> Email: <a href="mailto:liberancesegodi@gmail.com">liberancesegodi@gmail.com</a></li>
-          <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/liberance-segodi-53b856361" target="_blank">Liberance Segodi</a></li>
-          <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/24024885" target="_blank">github</a></li>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">Liberance Sekgodi</div>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="intro">
+      <div class="container intro-content">
+        <div class="intro-text">
+          <h1 class="animate-slide-left">Hi, I'm Liberance Sekgodi</h1>
+          <p class="lead animate-slide-left" style="animation-delay: 0.2s">
+            Aspiring
+            <span style="color: #29c56d"
+              ><strong>Software Developer</strong></span
+            >
+            | CS&M Student at University of Venda<br /><br />
+            A committed and progressive Computer Science and Mathematics student
+            passionate about leveraging technology to solve real-world problems.
+            My studies have equipped me with a strong foundation in programming,
+            data structures, algorithms, and software development principles.
+          </p>
+          <a
+            href="#projects"
+            class="button animate-slide-left"
+            style="animation-delay: 0.4s"
+            >View My Projects</a
+          >
+        </div>
+        <img
+          src="/image/liber.jpg"
+          alt="Liberance Segodi"
+          class="profile-image animate-slide-right"
+        />
       </div>
     </section>
-  </main>
 
-  <footer class="animate-fade-in" style="animation-delay: 0.3s;">
-    <div class="container">
-      <p>© <span id="current-datetime"></span> Liberance. All rights reserved.</p>
-    </div>
-  </footer>
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="animate-fade-in">About Me</h2>
+          <p class="about-info animate-slide-up">
+            <strong>Academic Background:</strong> BSc in Computer Science and
+            Mathematics, University of Venda
+          </p>
+          <p>
+            My studies have provided me with a strong foundation in core areas
+            such as programming, data structures, algorithms, database systems,
+            computer networks, software engineering, and emerging technologies
+            like artificial intelligence and cloud computing.I have developed
+            problem-solving abilities, programming skills, and a forward-looking
+            approach to emerging technology trends. I am passionate about
+            leveraging my knowledge to innovate, create sustainable solutions,
+            and drive digital transformation across industries.As I continue my
+            studies, I am committed to expanding my technical expertise and
+            leadership skills, preparing to contribute meaningfully to the
+            future of tech-driven industries and global digital ecosystems.
+          </p>
+          <p class="animate-slide-up" style="animation-delay: 0.2s">
+            Driven by a curiosity for technology and a desire to create
+            impactful solutions, I am eager to apply my academic knowledge and
+            continuously expand my skillset in the field of software
+            development.
+          </p>
 
-  <script>
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+          <h2 class="animate-fade-in" style="margin-top: 3rem">
+            Skills & Tools:
+          </h2>
+          <div class="skills-list">
+            <div class="skill animate-grow">
+              <i class="fab fa-python" style="color: #3776ab"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.1s">
+              <i class="fab fa-java" style="color: #f89820"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.2s">
+              <img
+                src="https://cdn.simpleicons.org/cplusplus/00599C"
+                alt="C++ Logo"
+                width="30"
+                height="30"
+              />
+              <span>C++</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.2s">
+              <i class="fab fa-js-square" style="color: #f7df1e"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.3s">
+              <i class="fab fa-html5" style="color: #e34c26"></i>
+              <span>HTML</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.4s">
+              <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              <span>CSS</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.5s">
+              <i class="fab fa-react" style="color: #61dbfb"></i>
+              <span>React.js</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.6s">
+              <i class="fab fa-node-js" style="color: #68a063"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.7s">
+              <i class="fas fa-database" style="color: #00618a"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.8s">
+              <i class="fab fa-git-alt" style="color: #f1502f"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 0.9s">
+              <i class="fab fa-github" style="color: #333"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill animate-grow" style="animation-delay: 1s">
+              <i class="fab fa-linux" style="color: #000"></i>
+              <span>Linux</span>
+            </div>
+          </div>
 
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-    });
+          <p class="animate-slide-up" style="animation-delay: 0.4s">
+            <strong>Career Goals:</strong> Aspiring to become a proficient
+            full-stack developer, contributing to open-source projects, and
+            building innovative tech solutions that address real-world
+            challenges.
+          </p>
+        </div>
+      </section>
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-          observer.unobserve(entry.target); 
-        }
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="animate-fade-in">Projects</h2>
+          <div class="row">
+            <div class="column animate-slide-up">
+              <div class="card">
+                <h3>
+                  <span style="color: #1d68e0"
+                    ><strong>Budget Planner</strong></span
+                  >
+                </h3>
+                <p>
+                  Budget Planner is an intuitive and powerful web application
+                  designed to help individuals and businesses efficiently plan,
+                  track, and manage their finances. It offers users a clear
+                  visual overview of their income, expenses, savings, and
+                  financial goals, promoting smarter money management habits
+                </p>
+                <!-- <p><strong>Tools:</strong></p> -->
+                <hr style="height: 1px" />
+                <div style="display: flex; justify-content: center; gap: 15px">
+                  <div class="animate-grow" style="animation-delay: 0.1s">
+                    <i class="fab fa-java" style="color: #f89820"></i>
+                    <span>Java</span>
+                  </div>
+                </div>
+                <hr />
+
+                <a
+                  href="https://github.com/24024885/Expense"
+                  class="project-link"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <div class="column animate-slide-up" style="animation-delay: 0.2s">
+              <div class="card">
+                <h3>
+                  <span style="color: #1d68e0"
+                    ><strong>Personal Website</strong></span
+                  >
+                </h3>
+                <p>
+                  A website to showcase my academic background, skills, and
+                  projects. Building this website helped me strengthen my skills
+                  in web development technologies like HTML, CSS, and responsive
+                  design.
+                </p>
+
+                <!-- <p><strong>Tools:</strong></p> -->
+                <hr />
+
+                <div style="display: flex; justify-content: center; gap: 15px">
+                  <div class="animate-grow" style="animation-delay: 0.3s">
+                    <i class="fab fa-html5" style="color: #e34c26"></i>
+                    <span>HTML</span>
+                  </div>
+                  <div class="animate-grow" style="animation-delay: 0.4s">
+                    <i class="fab fa-css3-alt" style="color: #264de4"></i>
+                    <span>CSS</span>
+                  </div>
+
+                  <div class="animate-grow" style="animation-delay: 0.2s">
+                    <i class="fab fa-js-square" style="color: #f7df1e"></i>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+
+                <hr />
+
+                <a
+                  href="https://github.com/24024885/My-portfolio"
+                  class="project-link"
+                  target="_blank"
+                  >View project</a
+                >
+              </div>
+            </div>
+
+            <div class="column animate-slide-up" style="animation-delay: 0.4s">
+              <div class="card coming-soon">
+                <h3>Coming Soon</h3>
+                <p>
+                  Exciting new projects are currently under development. Stay
+                  tuned!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="animate-fade-in">Contact Me</h2>
+          <p class="animate-slide-up">
+            Feel free to reach out for collaborations, opportunities, or just a
+            friendly chat!
+          </p>
+          <ul
+            class="contact-list animate-slide-up"
+            style="animation-delay: 0.2s"
+          >
+            <li>
+              <i class="fas fa-envelope"></i> Email:
+              <a href="mailto:liberancesegodi@gmail.com"
+                >liberancesegodi@gmail.com</a
+              >
+            </li>
+            <li>
+              <i class="fab fa-linkedin"></i> LinkedIn:
+              <a
+                href="https://linkedin.com/in/liberance-segodi-53b856361"
+                target="_blank"
+                >Liberance Segodi</a
+              >
+            </li>
+            <li>
+              <i class="fab fa-github"></i> GitHub:
+              <a href="https://github.com/24024885" target="_blank">github</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="animate-fade-in" style="animation-delay: 0.3s">
+      <div class="container">
+        <p>
+          © <span id="current-datetime"></span> Liberance. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
       });
-    }, {
-      threshold: 0.15 
-    });
 
-    const elementsToAnimate = document.querySelectorAll('.animate-fade-in, .animate-slide-up, .animate-slide-left, .animate-slide-right, .animate-grow');
-    elementsToAnimate.forEach((element) => {
-      observer.observe(element);
-    });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.15,
+        }
+      );
 
-    function updateDateTime() {
-      const now = new Date();
-      const datetimeSpan = document.getElementById('current-datetime');
-      const options = { year: 'numeric' };
-      datetimeSpan.textContent = now.toLocaleDateString('en-US', options);
-    }
+      const elementsToAnimate = document.querySelectorAll(
+        ".animate-fade-in, .animate-slide-up, .animate-slide-left, .animate-slide-right, .animate-grow"
+      );
+      elementsToAnimate.forEach((element) => {
+        observer.observe(element);
+      });
 
-    updateDateTime();
-  </script>
+      function updateDateTime() {
+        const now = new Date();
+        const datetimeSpan = document.getElementById("current-datetime");
+        const options = { year: "numeric" };
+        datetimeSpan.textContent = now.toLocaleDateString("en-US", options);
+      }
 
-</body>
+      updateDateTime();
+    </script>
+  </body>
 </html>
