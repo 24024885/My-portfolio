@@ -419,7 +419,7 @@ nav {
 
 .card {
   background-color: var(--accent-background);
-  padding: 30px;
+  padding: 40px;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow-medium);
   transition: transform 0.2s ease-in-out;
